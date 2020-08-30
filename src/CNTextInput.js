@@ -1338,6 +1338,7 @@ class CNTextInput extends Component {
           onBlur={this.onBlur}
           onContentSizeChange={this.handleContentSizeChange}
           placeholder={this.props.placeholder}
+          autoCorrect={false}
         >
           {
               _.map(items, item => (
